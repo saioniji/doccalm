@@ -1,0 +1,8 @@
+.DS_Store
+docs
+node_modules
+*-lock.json
+src/config.json
+ngrok
+*.rdb
+.idea

@@ -1,0 +1,41 @@
+{
+  "name": "bot-antidep",
+  "version": "1.0.0",
+  "description": "bot-shrink",
+  "main": "main.js",
+  "engines": {
+    "node": "14.13.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meeba-nc/bot-antidep.git"
+  },
+  "author": "Meeba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meeba-nc/bot-antidep/issues"
+  },
+  "homepage": "https://github.com/meeba-nc/bot-antidep#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "botact": "^2.4.2",
+    "connect-redis": "^5.0.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.3",
+    "html-to-text": "^6.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "ngrok": "^3.3.0",
+    "node-vk-bot-api": "^3.5.0",
+    "redis": "^3.1.2",
+    "redis-server": "^1.2.2"
+  }
+}
